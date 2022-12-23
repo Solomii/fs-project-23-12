@@ -1,76 +1,81 @@
 .welcome {
-  height: 100vh;
-  padding: var(--space-size);
-  background-color: var(--color-main);
-  background-image:url();
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center bottom;
-  color:var(--color-light)
-}
-.welcome__header{
-
-}
-.welcome__article{
-  display: flex;
-  flex-direction: column;
-  height: 88%;
+    height: 100vh;
+    padding: var(--space-size);
+    background-color: var(--color-main);
+    background-image: url(./../bg-images/bg-header-mb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    color: var(--color-light);
 }
 
-
-.welcome__article .btn {
-  max-width: 232px;
-  margin-top: auto;
-  align-self: center;
-
-  background-color:var(--color-light);
-  color: var(--color-main);
+.welcome__article {
+    display: flex;
+    flex-direction: column;
+    height: 88%;
 }
 
-.logo{
-  display: block;
-  width: 50px;
-  height: 50px;
-  margin-top: 20px;
-}
 .welcome__heading {
   margin-top: 30px;
   font-size: 1.375;
   line-height: 1.23;
 }
 
-.welcome__articlep {
+/* .welcome__article p{
   line-height: 0.7rem;
   font-weight: 600;
+} */
+
+.welcome__article strong {
+  font-weight: 900;
 }
 
-@media (min-width:576px) {
-  .welcome {
-    background-image: url();
-    background-position: right bottom;
-  }
+.welcome__article .btn {
+    max-width: 232px;
+    margin-top: auto;
+    align-self: center;
+
+    background-color: var(--color-light);
+    color: var(--color-main);
+}
+
+.logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+
+@media (min-width: 576px) {
+    .welcome {
+        background-image: url(./../bg-images/bg-header-dt.png);
+        background-position: 80% bottom;
+    }
+
+    .welcome__article {
+      width: 50%;
+    }
 }
 
 @media (min-width: 768px) {
-  .logo {
-    width: 98px;
-  height: 98px;
-  }
+    .logo {
+        width: 98px;
+        height: 98px;
+    }
 
-  .welcome__article {
-    width: 45%;
-    height: 78%;
-  }
+    .welcome__article {
+        width: 60%;
+    }
 
-  .welcome__article .btn {
-    align-self:initial;
-    margin-top: 3rem;
+    .welcome__article .btn {
+        align-self: initial;
+        margin-top: 3rem;
+    }
 
-  }
-}
-
-@media (min-width: 992px) {
-:root {
-  font-size: 22px;
-}
+    .welcome__article .btn {
+      align-self:initial;
+      margin-top: 3rem;
+    }
 }
