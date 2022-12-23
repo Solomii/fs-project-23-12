@@ -1,0 +1,13 @@
+.welcome {
+  height: 100vh;
+  background-color: var(--color-main);
+  color:var(--color-bg)
+}
+.welcome__header{}
+.welcome__article{}
+.logo{
+  display: block;
+  width: 98px;
+  height: 98px;
+}
+.welcome__heading{}

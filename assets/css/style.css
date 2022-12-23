@@ -18,6 +18,18 @@ font-family: "Montserrat, sans-serif";
     line-height: 1.6;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+a {
+
+}
+
+img{
+    width: 100%;
+}
+
 h1,
 h2,
 h3 {
