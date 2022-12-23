@@ -1,0 +1,45 @@
+/* 
+кольори
+шрифт
+font-family: "Montserrat Alternates, sans-serif";
+font-family: "Montserrat, sans-serif";
+ */
+
+:root {
+    --color-text: #221112;
+    --color-main: #ed1c24;
+    --color-bg: #ffffff;
+    --color-footer: #670508;
+    --space-size:10px;
+    font-family: "Montserarat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2,
+h3,
+strong {
+    font-weight: 700;
+}
+
+/* @media (min-width: 768px) {
+
+ } */
+
+@media (min-width: 992px) {
+    :root {
+        font-size: 22px;
+    }
+}
