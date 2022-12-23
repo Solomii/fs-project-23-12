@@ -8,7 +8,7 @@ font-family: "Montserrat, sans-serif";
 :root {
     --color-text: #221112;
     --color-main: #ed1c24;
-    --color-bg: #ffffff;
+    --color-light: #ffffff;
     --color-footer: #670508;
     --space-size:10px;
     font-family: "Montserarat", sans-serif;
@@ -24,6 +24,11 @@ font-family: "Montserrat, sans-serif";
 
 a {
 
+}
+
+.btn {
+    background-color:var(--color-main);
+    color:var(--color-light);
 }
 
 img{
