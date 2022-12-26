@@ -46,8 +46,6 @@
     margin-top: 20px;
 }
 
-
-
 @media (min-width: 576px) {
     .welcome {
         background-image: url(./../bg-images/bg-header-dt.png);
