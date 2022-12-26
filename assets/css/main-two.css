@@ -1,36 +1,37 @@
 .main-travel__section__two {
-   height: 100vh; 
-   text-align: center;
+    height: 100vh;
+    text-align: center;
 }
 
 .main-travel__two__article {
-  height: 100%;
-  width: 300px;
-  margin-left: auto;margin-right: auto;
-  padding: 0.2rem;
-  text-align: start;
+    height: 100%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2rem;
+    
+    text-align: start;
 
-  color:var(--color-text);
+    color: var(--color-text);
 }
 
 .main-travel__two__title {
-  margin-top: 4.3rem;
-  margin-bottom: 2.6875rem;
-  font-size: 1.375rem;
-  line-height: 1.68rem;
- 
+    margin-top: 4.3rem;
+    margin-bottom: 2.6875rem;
+    font-size: 1.375rem;
+    line-height: 1.68rem;
 }
 
 .main-travel__two__color__word {
-  color:var(--color-main);
+    color: var(--color-main);
 }
 
 .main-travel__two__article p {
-  line-height: 1.5rem;
-  margin-bottom: 3.75rem;
+    line-height: 1.5rem;
+    margin-bottom: 3.75rem;
 }
 
 .main-travel__two__btn {
-  margin-bottom: 5rem;
-  margin-top: auto;
+    margin-bottom: 4.375rem;
+    margin-top: auto;
 }
