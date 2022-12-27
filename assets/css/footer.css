@@ -20,15 +20,15 @@
     font-size: 1rem;
 }
 
-.footer-address__text {
-    margin-top: 1.56rem;
-    margin-bottom: 2rem;
-}
-
 .footer-text-uppercase {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 2rem;
+}
+
+.footer-address__text {
+    margin-top: 1.56rem;
+    margin-bottom: 2rem;
 }
 
 .footer-tel {
@@ -51,6 +51,32 @@
 @media (min-width: 768px) {
     .footer-wrapper-address {
         display: flex;
+        justify-content: row;
         justify-content: space-around;
+        margin-bottom: 60px;
+    }
+
+    .footer-address {
+        text-align: start;
+    }
+
+    .footer-address__text {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-text-uppercase {
+        font-size: 63px;
+    }
+
+    .footer-tel {
+        font-size: 50px;
+        line-height: 66px;
+    }
+
+    .footer-address__text {
+        font-size: 26px;
+        line-height: 47px;
     }
 }
