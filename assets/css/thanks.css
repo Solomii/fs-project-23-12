@@ -43,12 +43,13 @@
     line-height: 1.875rem;
 }
 
-.thanks__article .btn {
-    max-width: 300px;
+.thanks__btn {
+    min-width:300px;
+    width: 100%;
+    max-width: 500px;
     margin-top: auto;
     align-self: center;
     font-size: 1.375rem;
-    font-weight: 900;
 
     background-color: var(--color-light);
     color: var(--color-main);
@@ -61,33 +62,54 @@
 }
 
 @media (min-width: 576px) {
-    .thanks-container {
-        background-image: url(./../bg-images/bg-thanks-dt.png);
-        background-position: 80% bottom;
+    .thanks__article {
+        margin-top: 50px;
+        margin-left: 50px;
     }
 
-    .thanks__article {
-        width: 50%;
+    .thanks__heading {
+        width: 465px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .thanks__text {
+        width: 600px;
+        font-size: 20px;
+        line-height: 35px;
     }
 }
 
 @media (min-width: 768px) {
+    .thanks-container {
+        background-image: url(./../bg-images/bg-thanks-dt.png);
+        background-position: 100% bottom;
+    }
+
     .logo {
         width: 98px;
         height: 98px;
     }
 
+    .arrow-btn {
+        font-size: 2rem;
+    }
+   
+}
+
+@media (min-width: 992px) {
     .thanks__article {
-        width: 60%;
+        margin-top: 10px;
     }
 
-    .thanks__article .btn {
-        align-self: initial;
-        margin-top: 3rem;
+    .thanks__heading {
+        width: 800px;
+        font-size: 50px;
+        line-height:75px;
     }
 
-    .thanks__article .btn {
-        align-self: initial;
-        margin-top: 3rem;
+    .thanks__text {
+        width: 800px;
+        font-size: 24px;
     }
 }
