@@ -1,5 +1,5 @@
 .footer-container {
-    height: 50vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +33,7 @@
 
 .footer-tel {
     height: 60%;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
 
@@ -40,10 +41,11 @@
     line-height: 3.125rem;
 }
 
-.footer-botomn__text {
+.footer-bottom__text {
+    border-top: 0.5px solid var(--color-light);
     font-size: 0.75rem;
     margin-top: auto;
-    padding: 1rem 0;
+    padding: 1.2rem 0;
 }
 
 @media (min-width: 768px) {

@@ -16,9 +16,9 @@
 }
 
 .welcome__heading {
-  margin-top: 30px;
-  font-size: 1.375;
-  line-height: 1.23;
+    margin-top: 30px;
+    font-size: 1.375;
+    line-height: 1.23;
 }
 
 /* .welcome__article p{
@@ -27,7 +27,7 @@
 } */
 
 .welcome__article strong {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 .welcome__article .btn {
@@ -53,7 +53,7 @@
     }
 
     .welcome__article {
-      width: 50%;
+        width: 50%;
     }
 }
 
@@ -73,7 +73,7 @@
     }
 
     .welcome__article .btn {
-      align-self:initial;
-      margin-top: 3rem;
+        align-self: initial;
+        margin-top: 3rem;
     }
 }

@@ -9,7 +9,7 @@
 
 .section-certificate__article {
     color: var(--color-light);
-    padding-top: 350px;
+    padding-top: 21.875rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,30 +18,30 @@
 
 .section-certificate__title,
 .section-certificate__text {
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .section-certificate__title {
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 1.375rem;
+    line-height: 1.6875rem;
 }
 
 .section-certificate__text {
-    margin-bottom: 20px;
+    margin-bottom: 4rem;
 }
 
 .section-certificate__form__box {
     max-width: 400px;
     width: 100%;
     min-width: 300px;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .section-certificate__form__box input {
     color: var(--color-text);
     width: 100%;
-    margin-top: 10%;
-    padding: 20px;
+    margin-top: 1.5625rem;
+    padding: 1.25rem;
 
     box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
     border: none;
@@ -50,8 +50,8 @@
 
 .form-btn-wrapper {
     width: 100%;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 1.875rem;
+    margin-bottom: 3.75rem;
     text-align: center;
 }
 

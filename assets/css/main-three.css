@@ -1,6 +1,5 @@
 .main-three {
     height: 100%;
-    /* text-align: center; */
     background-color: var(--color-main);
     background-image: url(./../bg-images/bg-main-three-mb.png);
     background-repeat: no-repeat;
