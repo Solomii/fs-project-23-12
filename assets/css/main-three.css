@@ -22,7 +22,7 @@
 
 .main-three__image {
     width: 65%;
-    margin-top: 100px;
+    margin-top: 7.5rem;
 }
 
 .main-three__title {
@@ -30,7 +30,7 @@
     margin-bottom: 1.25rem;
 
     font-size: 2rem;
-    line-height: 2.44;
+    line-height: 2.44rem;
 }
 
 .main-three__article p {
@@ -51,7 +51,8 @@
 }
 
 .box-euro-wrapper {
-    width: 16rem;
+    min-width: 16rem;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -82,31 +83,54 @@
     }
 
     .main-three__image {
-        width: 70%;
-        margin-top: -60px;
-        margin-right: 30px;
-        margin-left: 150px;
+        padding: 1.875rem;
     }
 
     .main-three__article {
         display: flex;
         flex-direction: row;
-        justify-content: end;
+        justify-content: space-around;
         text-align: start;
 
         color: var(--color-light);
     }
 
     .main-three__title {
-        margin-top: 16rem;
-        margin-bottom: 1rem;
+        margin-top: 15rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-three__title {
+        margin-top: 8rem;
+        font-size: 2.625rem;
+        line-height: 3.3125rem;
+    }
+
+    .main-three__article p {
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
+    .box-euro-wrapper p {
+        padding: 0 1rem;
     }
 }
 
 @media (min-width: 1200px) {
     .main-three__image {
-        margin-right: 50px;
-        margin-left: 200px;
+        width: 50%;
+    }
+
+    .main-three__title {
+        font-size: 3.25rem;
+        line-height: 3.9375rem;
+    }
+
+    .main-three__article p {
+        font-size: 1.25rem;
+        line-height: 2.1875rem;
     }
 }
 
