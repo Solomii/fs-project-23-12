@@ -89,7 +89,7 @@
     .main-three__article {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         text-align: start;
 
         color: var(--color-light);
@@ -133,8 +133,3 @@
         line-height: 2.1875rem;
     }
 }
-
-/* sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px, */
