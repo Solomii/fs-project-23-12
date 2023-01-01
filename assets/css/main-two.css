@@ -1,9 +1,9 @@
 .main-travel__section__two {
-    height: 100vh;
+    height: 100%;
 }
 
 .main-travel__two__article {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     color: var(--color-text);
