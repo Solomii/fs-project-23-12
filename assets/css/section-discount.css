@@ -1,4 +1,4 @@
-.main-three {
+.section-discount {
     height: 100%;
     padding: 1rem;
     background-color: var(--color-main);
@@ -8,7 +8,7 @@
     background-position: 0% 0%;
 }
 
-.main-three__article {
+.section-discount__article {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.875rem;
@@ -20,12 +20,12 @@
     color: var(--color-light);
 }
 
-.main-three__image {
+.section-discount__image {
     width: 65%;
     margin-top: 7.5rem;
 }
 
-.main-three__title {
+.section-discount__title {
     margin-top: 20%;
     margin-bottom: 1.25rem;
 
@@ -33,14 +33,14 @@
     line-height: 2.44rem;
 }
 
-.main-three__article p {
+.section-discount__article p {
     margin-bottom: 2.5rem;
 
     font-weight: 500;
     line-height: 1.75rem;
 }
 
-.box-euro {
+.section-discount__box__euro {
     min-width: 280px;
     width: 95%;
     text-align: center;
@@ -50,21 +50,21 @@
     color: var(--color-text);
 }
 
-.box-euro-wrapper {
+.section-discount__euro__wrapper {
     min-width: 16rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.textthree {
+.section-discount__euro {
     padding-top: 1.875rem;
 
     font-size: 3rem;
     font-weight: bold;
 }
 
-.box-euro-wrapper p {
+.section-discount__euro__wrapper p {
     margin-top: 1.25rem;
     margin-bottom: 1.875rem;
     padding: 0 2rem;
@@ -73,20 +73,20 @@
     font-size: 0.9rem;
 }
 
-.btn-three {
+.section-discount__btn {
     margin-bottom: 1.875rem;
 }
 
 @media (min-width: 768px) {
-    .main-three {
+    .section-discount {
         background-image: url(./../bg-images/bg-main-three-dt.png);
     }
 
-    .main-three__image {
+    .section-discount__image {
         padding: 1.875rem;
     }
 
-    .main-three__article {
+    .section-discount__article {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -95,40 +95,40 @@
         color: var(--color-light);
     }
 
-    .main-three__title {
+    .section-discount__title {
         margin-top: 15rem;
     }
 }
 
 @media (min-width: 992px) {
-    .main-three__title {
+    .section-discount__title {
         margin-top: 8rem;
         font-size: 2.625rem;
         line-height: 3.3125rem;
     }
 
-    .main-three__article p {
+    .section-discount__article p {
         font-weight: 500;
         font-size: 1.125rem;
         line-height: 2rem;
     }
 
-    .box-euro-wrapper p {
+    .section-discount__euro__wrapper p {
         padding: 0 1rem;
     }
 }
 
 @media (min-width: 1200px) {
-    .main-three__image {
+    .section-discount__image {
         width: 50%;
     }
 
-    .main-three__title {
+    .section-discount__title {
         font-size: 3.25rem;
         line-height: 3.9375rem;
     }
 
-    .main-three__article p {
+    .section-discount__article p {
         font-size: 1.25rem;
         line-height: 2.1875rem;
     }
