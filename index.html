@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="./assets/css/footer.css" />
         <link rel="stylesheet" href="./assets/css/section-profit.css" />
         <link rel="stylesheet" href="./assets/css/section-discount.css" />
-        <link rel="stylesheet" href="./assets/css/section-four-steps.css" />
+        <link rel="stylesheet" href="./assets/css/section-steps.css" />
         <link rel="stylesheet" href="./assets/css/section-certificate.css" />
     </head>
     <body>
@@ -35,7 +35,7 @@
                             srcset="./assets/img/logoMob.png"
                             media="max-width:768px"
                         />
-                        <img src="./assets/img/logoDt.png" alt="" />
+                        <img src="./assets/img/logoDt.png" alt="Logo" />
                     </picture>
                 </a>
             </header>
@@ -53,7 +53,9 @@
                         подарунка!</strong
                     >
                 </p>
-                <button class="btn" href="#sertificate">подарувати</button>
+                <button class="btn" href="">
+                    <a href="#certificate-form">подарувати</a>
+                </button>
             </article>
         </section>
         <main>
@@ -63,12 +65,14 @@
                         Враження-найкращий <br />
                         подарунок!
                     </h2>
-                    <picture >
-                        <source  class="section-travel-gift__box"
+                    <picture>
+                        <source
+                            class="section-travel-gift__box"
                             srcset="./assets/img/travel-gift-mb.png"
                             media="max-width:768px"
                         />
-                        <img class="section-travel-gift__box"
+                        <img
+                            class="section-travel-gift__box"
                             src="./assets/img/travel-gift-dt.png"
                             alt=""
                         />
@@ -204,7 +208,7 @@
                         </p>
                     </div>
                     <button class="btn section-profit__btn">
-                        Придбати сертифікат
+                        <a href="#certificate-form">Придбати сертифікат</a>
                     </button>
                 </article>
             </section>
@@ -237,29 +241,33 @@
                         </p>
                         <div class="section-discount__box__euro">
                             <div class="section-discount__euro__wrapper">
-                                <h3 class="section-discount__euro">-&#8364;300</h3>
+                                <h3 class="section-discount__euro">
+                                    -&#8364;300
+                                </h3>
                                 <p>
                                     Тільки до 25 грудня - обирайте поїздку зі
                                     знижкою &#8364;300!
                                 </p>
                                 <button class="btn section-discount__btn">
-                                    Зроби подарунок
+                                    <a href="#certificate-form"
+                                        >Зроби подарунок</a
+                                    >
                                 </button>
                             </div>
                         </div>
                     </div>
                 </article>
             </section>
-            <section class="section-four-steps">
-                <article class="section-four-steps__article">
-                    <h2 class="section-four-steps__title">Як це працює?</h2>
-                    <p class="section-four-steps__text">
+            <section class="section-steps">
+                <article class="section-steps__article">
+                    <h2 class="section-steps__title">Як це працює?</h2>
+                    <p class="section-steps__text">
                         Для ідеального подарунка вам знадобиться лише 4 простих
                         кроки!
                     </p>
-                    <div class="section-four-steps__blocks">
+                    <div class="section-steps__blocks">
                         <img
-                            class="section-four-steps__images"
+                            class="section-steps__images"
                             src="./assets/icons/icon-one.png"
                             alt="Icon-keyboard"
                         />
@@ -268,9 +276,9 @@
                             <p>Залишіть заявку на цій сторінці.</p>
                         </div>
                     </div>
-                    <div class="section-four-steps__blocks">
+                    <div class="section-steps__blocks">
                         <img
-                            class="section-four-steps__images"
+                            class="section-steps__images"
                             src="./assets/icons/icon-two.png"
                             alt="Icon-girl"
                         />
@@ -287,9 +295,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="section-four-steps__blocks">
+                    <div class="section-steps__blocks">
                         <img
-                            class="section-four-steps__images"
+                            class="section-steps__images"
                             src="./assets/icons/icon-three.png"
                             alt="Icon-boy"
                         />
@@ -301,9 +309,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="section-four-steps__blocks">
+                    <div class="section-steps__blocks">
                         <img
-                            class="section-four-steps__images"
+                            class="section-steps__images"
                             src="./assets/icons/icon-three.png"
                             alt="Icon-boy"
                         />
@@ -317,14 +325,14 @@
                             </p>
                         </div>
                     </div>
-                    <div class="section-four-steps__wrapper__btn">
-                        <button class="btn">
-                            <a href="">Xoчу сертифікат</a>
+                    <div class="section-steps__wrapper__btn">
+                        <button class="btn section-steps__btn">
+                            <a href="#certificate-form">Xoчу сертифікат</a>
                         </button>
                     </div>
                 </article>
             </section>
-            <section class="section-certificate">
+            <section class="section-certificate" id="certificate-form">
                 <ariticle class="section-certificate__article">
                     <div class="section-certificate__wrapper__images">
                         <picture>
@@ -355,7 +363,8 @@
                             action="./assets/pages/thank.html"
                             method="get"
                             class="section-certificate__form__box"
-                            target="_blank"
+                            target="_blank"   
+                            autofocus
                         >
                             <input type="text" placeholder="Ваше ім'я" />
                             <input type="text" placeholder="Номер телефону" />

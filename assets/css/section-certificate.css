@@ -67,6 +67,10 @@
     cursor: pointer;
 }
 
+.form-btn:hover {
+    color:var(--color-main);
+}
+
 @media (min-width: 768px) {
     .section-certificate__wrapper__images {
         display: flex;

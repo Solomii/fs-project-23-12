@@ -1,6 +1,6 @@
 .welcome {
     height: 100vh;
-    padding: var(--space-size);
+    padding: 1.5rem;
     background-color: var(--color-main);
     background-image: url(./../bg-images/bg-header-mb.png);
     background-repeat: no-repeat;

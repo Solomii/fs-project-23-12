@@ -77,6 +77,10 @@
     margin-bottom: 1.875rem;
 }
 
+.section-discount__btn:hover {
+    color:var(--color-main)
+}
+
 @media (min-width: 768px) {
     .section-discount {
         background-image: url(./../bg-images/bg-main-three-dt.png);

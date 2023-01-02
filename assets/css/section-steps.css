@@ -1,21 +1,21 @@
-.section-four-steps {
+.section-steps {
     text-align: center;
     color: var(--color-text);
     padding: 0rem 0.5rem 1.25rem;
 }
 
-.section-four-steps h2 {
+.section-steps h2 {
     margin-top: 3.75rem;
     margin-bottom: 1.25rem;
     font-size: 1.375rem;
     line-height: 1.69rem;
 }
 
-.section-four-steps__text {
+.section-steps__text {
     padding: 0rem 1.5rem 3.125rem;
 }
 
-.section-four-steps__article {
+.section-steps__article {
     min-width: 18.75rem;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.section-four-steps__blocks {
+.section-steps__blocks {
     min-width: 240px;
     width: 85%;
     margin-bottom: 1.56rem;
@@ -35,7 +35,7 @@
     border-radius: 20px;
 }
 
-.section-four-steps__images {
+.section-steps__images {
     display: block;
     width: 50px;
     height: 50px;
@@ -45,37 +45,41 @@
     box-shadow: 0 8px 8px -4px var(--color-main);
 }
 
-.section-four-steps__article h3 {
+.section-steps__article h3 {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 2.19rem;
 }
 
-.section-four-steps__article p {
+.section-steps__article p {
     font-weight: 400;
 }
 
-.section-four-steps__wrapper__btn {
+.section-steps__wrapper__btn {
     margin-top: 1.875rem;
     margin-bottom: 3.125rem;
 }
 
+.section-steps__btn:hover {
+    color: var(--color-main);
+}
+
 @media (min-width: 768px) {
-    .section-four-steps h2 {
+    .section-steps h2 {
         font-size: 1.8rem;
     }
 
-    .section-four-steps__text {
+    .section-steps__text {
         font-size: 1rem;
         line-height: 1.8rem;
     }
 
-    .section-four-steps__blocks {
+    .section-steps__blocks {
         display: flex;
         flex-direction: row;
     }
 
-    .section-four-steps__images {
+    .section-steps__images {
         width: 80px;
         height: 80px;
         margin-right: 1.875rem;
@@ -83,20 +87,20 @@
 }
 
 @media (min-width: 992px) {
-    .section-four-steps h2 {
+    .section-steps h2 {
         font-weight: 700;
         font-size: 2rem;
     }
 }
 
 @media (min-width: 1200px) {
-    .section-four-steps h2 {
+    .section-steps h2 {
         margin-top: 5rem;
         font-size: 2.625rem;
         line-height: 3.5rem;
     }
 
-    .section-four-steps__images {
+    .section-steps__images {
         width: 100px;
         height: 100px;
     }

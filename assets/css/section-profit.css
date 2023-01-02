@@ -32,6 +32,10 @@
     margin-top: auto;
 }
 
+.section-profit__btn:hover {
+    color:var(--color-main)
+}
+
 @media (min-width: 576px) {
     .section-profit {
         padding: 0rem 2rem;;

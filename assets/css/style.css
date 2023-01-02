@@ -38,7 +38,15 @@ a {
 
     font-weight: 900;
     text-align: center;
+    
 }
+
+.btn:hover {background-color: rgb(246, 232, 232)}
+.btn:active {
+    background-color:  rgb(246, 232, 232);
+    box-shadow: 0 5px rgb(239, 233, 233);
+    transform: translateY(8px);
+  }
 
 h1,
 h2,
